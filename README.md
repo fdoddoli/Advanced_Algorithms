@@ -1,6 +1,6 @@
 # Introduction
 
-Final proyects for the course on Advanced Algorithms. Each proyect solves a different problem, outlined as follows. 
+Final proyects for the course on Advanced Algorithms. Each proyect solves a different problem in C++, outlined as follows. 
 
 # Proyect 1
 
