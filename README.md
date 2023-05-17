@@ -4,21 +4,24 @@ Final proyects for the course on Advanced Algorithms. Each proyect solves a diff
 
 # Proyect 1
 
-**Part 1:**
+### Part 1
+
 Objective: Search for malicious codes in transmission files
 Algorithm: Uses the Z algorithm
 Complexity: O(N)
 
 The Z algorithm is used to determine if malicious content is present in the given transmission files. The algorithm works as follows: Given a string and a pattern (in this case, the transmission and the malicious code, respectively), an integer array of size string.size() is created to represent the number of characters that match the given pattern. If the length of the largest prefix of the pattern is found in the string, it means that the pattern is present.
 
-**Part 2:**
+### Part 2
+
 Objective: Search for the longest palindrome
 Algorithm: Manacher's algorithm
 Complexity: O(N)
 
 Manacher's algorithm is used to find the largest palindrome within a text string. In this case, the text strings are the transmission files, and the goal is to find the longest palindrome assuming that the malicious code is a palindrome. Manacher's algorithm takes advantage of the symmetry of palindromes to avoid redundant computations by recognizing that there are palindromes within palindromes. The algorithm has a linear complexity. Here's how it works: A list of the same length as the text string is created to store the lengths of the palindromes. The algorithm iterates character by character, taking each character as the center of a palindrome. Assuming the standard case where there is symmetry and the sides are equal, and not reaching the limits of the array, the algorithm calculates the length of the palindrome and stores it in the list. The algorithm also considers special cases where the palindrome extends beyond the current boundaries. As lengths are stored in the list, it checks if the current length is the longest encountered so far and updates the variable that holds the longest length accordingly. This makes it easy to display the starting and ending positions of the longest palindrome after the iteration is complete.
 
-**Part 3:**
+### Part 3
+
 Case where the left sub-palindrome extends beyond the longest palindrome and cannot be matched by the right sub-palindrome.
 Case where both left and right palindromes have the same conditions, but the right one still has room to grow.
 Objective: Search for the longest common substring
