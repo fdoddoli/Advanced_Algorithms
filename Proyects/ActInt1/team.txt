@@ -1,0 +1,3 @@
+Carlos González del Rosal - A01566719 - Trabajó con las tres funciones principales del proyecto, además del flujo en main y los formatos de salida.
+Fernando Doddoli Lankenau - A00827038 - Trabajé el algoritmo del substring común más largo y el algoritmo de Manacher.
+Andrés Guerra Ochoa - A00828452 - Trabajó programando el algoritmo de Manacher y realizó los análisis y ejemplo visuales necesarios para entenderlo.

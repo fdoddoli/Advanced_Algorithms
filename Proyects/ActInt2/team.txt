@@ -1,0 +1,10 @@
+Carlos González del Rosal - A01566719 - Trabajó en todas las funciones principales del sistema, al igual que en el flujo del main y los formatos de salida del mismo.
+
+Fernando Doddoli Lankenau - A00827038 - Trabajó en el flujo del main, el algoritmo para imprimir la ruta más optima para visitar a todas las colonias y al finalizar regresar a la original, y el algoritmo para imprimir el flujo máximo. Aunque no logró crear el algoritmo totalmente funcional para desplegar la ruta a seguir. Intentó codificar un algoritmo greedy y otro de next permutation pero no pudo desplegar la ruta correcta.
+
+Andrés Guerra Ochoa - A00828452 - Trabajó programando el algoritmo de flujo máximo, incluyendo la función auxiliar BFS, y en la implementación del algoritmo greedy para encontrar la ruta más optima para visitar a todas las colonias y al finalizar regresar a la original.
+
+En equipo - Se trabajó la lectura de datos y se creó la matriz de adjacencias con las distancias entre las colonias utilizando la ecuación eucleidiana. Adicionalmente, se creó el programa para imprimir la matriz de adjacencias.
+
+
+
