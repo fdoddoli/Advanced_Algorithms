@@ -27,7 +27,9 @@ Algorithm: Dynamic Programming
 
 Dynamic Programming is used to find the longest common substring between two different text strings. In this case, the two text strings are the transmission files. The algorithm starts by creating a table of size text string 1 length by text string 2 length, which stores the lengths of the common suffixes. Both text strings are iterated using two nested loops, allowing the lengths of the common suffixes to be stored at the appropriate indices. This iteration also enables the algorithm to keep track of the longest common substring length and its location. Once the iteration is complete, it is straightforward to display the results by having the initial index of the substring and its length (the length of the longest common substring).
 
-# Description: Proyect 2
+# Proyect 2
+
+### Description
 
 Given an input file containing X, Y coordinates of neighborhoods and substations, as well as a flow matrix between the neighborhoods. Utilize the neighborhood coordinates to generate an adjacency matrix representing a weighted undirected graph, where the distances between neighborhoods are calculated using the Euclidean formula.
 
@@ -37,7 +39,7 @@ Task 3: Print the shortest path with the minimum cost to visit all neighborhoods
 Task 4: Print the maximum flow between each neighborhood i and neighborhood j using the flow matrix between neighborhoods.
 Task 5: Print the nearest substation and neighborhood geographically to a new hire.
 
-# Solution: Proyect 2
+### Solution
 
 For task 1, which is to print the adjacency matrix with distances between the neighborhoods, we initially fill the matrix using a function that calculates the distance between two neighborhoods using their coordinates with the Euclidean equation: sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2)). Then, to print this matrix, we use two for loops, resulting in a complexity of O(N^2).
 
